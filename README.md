@@ -11,7 +11,7 @@ git clone git@github.com:shaunthornburgh/laravel-chatgpt-demo-stream.git
 cd laravel-chatgpt-demo-stream
 composer install
 cp .env.example .env
-sail artisan key:generate
+./vendor/bin/sail artisan key:generate
 ./vendor/bin/sail up -d
 ./vendor/bin/sail artisan migrate --seed
 ./vendor/bin/sail npm i
