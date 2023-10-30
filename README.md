@@ -7,8 +7,8 @@ This is a ChatGPT integration with Laravel, Vue.js and TailwindCss.
 To build locally, use the following commands:
 
 ```bash
-git clone git@github.com:shaunthornburgh/laravel-chatgpt-demo.git
-cd laravel-chatgpt-demo
+git clone git@github.com:shaunthornburgh/laravel-chatgpt-demo-stream.git
+cd laravel-chatgpt-demo-stream
 composer install
 cp .env.example .env
 sail artisan key:generate
